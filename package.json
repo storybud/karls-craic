@@ -1,0 +1,30 @@
+{
+  "name": "plastic-pieces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storybud/karls-craic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/storybud/karls-craic/issues"
+  },
+  "homepage": "https://github.com/storybud/karls-craic#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "axios": "^1.2.5",
+    "eleventy-plugin-error-overlay": "^1.0.0",
+    "html-minifier": "^4.0.0",
+    "luxon": "^3.2.1"
+  }
+}
