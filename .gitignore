@@ -1,5 +1,5 @@
 
-
-/build/node_modules
-
-/public
+# Build folders
+node_modules
+build
+_site
