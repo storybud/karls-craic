@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 
 # Build folders
 node_modules
 build
 _site
+=======
+gst
+
+/build/node_modules
+
+/public
+>>>>>>> 5f17e6c (changes)
