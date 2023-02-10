@@ -1,2 +1,2 @@
-# Karl's Craic / Plastic Pieces
+# Eleventy / Strapi PoC
 

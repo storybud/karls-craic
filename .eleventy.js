@@ -6,9 +6,11 @@ module.exports = eleventyConfig => {
 
     // Copy the `css` directory to the output
     eleventyConfig.addPassthroughCopy('src/assets/css');
+    eleventyConfig.addPassthroughCopy('src/assets/js/');
   
     // Watch the `css` directory for changes
-    eleventyConfig.addWatchTarget('css');
+    eleventyConfig.addWatchTarget('src/assets/css');
+    eleventyConfig.addWatchTarget('src/assets/js');
 
     eleventyConfig.addFilter('readableDate', (dateObj) => {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
