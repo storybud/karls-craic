@@ -1,6 +1,6 @@
 ---
 title: Post
-layout: layouts/base.njk
+layout: layouts/post.njk
 pagination:
   data: blog.data
   size: 1
