@@ -1,6 +1,4 @@
 ---
-title: About Me
+title: About
 layout: layouts/page.njk
 ---
-
-This is who I am

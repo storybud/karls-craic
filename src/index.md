@@ -1,17 +1,16 @@
 ---
-title: Blog
-layout: layouts/base.njk
+title: Blog Posts
+layout: layouts/page.njk
 pagination:
   data: blog.data
   size: 100
   alias: blogs
 ---
 
-# Restaurants
-
-<ul>
-{%- for post in blogs -%}
-{{ post.id }}
-  <li><a href="/blogs/{{ post.id }}/">{{ post.attributes.Title }}</a></li>
-{%- endfor -%}
+<ul class="columns">
+{% for post in blogs %}
+  <li class="column is-one-third">
+    <a href="/blogs/{{ post.id }}/">{{ post.attributes.Title }}</a>
+  </li>
+{% endfor %}
 </ul>
