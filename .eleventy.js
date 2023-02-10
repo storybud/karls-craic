@@ -5,7 +5,7 @@ const ErrorOverlay = require('eleventy-plugin-error-overlay');
 module.exports = eleventyConfig => {
 
     // Copy the `css` directory to the output
-    eleventyConfig.addPassthroughCopy('css');
+    eleventyConfig.addPassthroughCopy('src/assets/css');
   
     // Watch the `css` directory for changes
     eleventyConfig.addWatchTarget('css');

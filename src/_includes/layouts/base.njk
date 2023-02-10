@@ -11,9 +11,13 @@
 
     <header>{% include "nav.njk" %}</header>
 
-    <main>
-        {{ content | safe }}
+    <main class="columns">
+        <div class="column is-three-fifths is-offset-one-fifth">
+            {{ content | safe }}
+        </div>
     </main>
+
+    <footer>&copy; 2023 Strapi PoC</footer>
     
 </body>
 </html>

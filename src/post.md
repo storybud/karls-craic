@@ -12,10 +12,3 @@ permalink: 'blogs/{{ blog.id }}/'
 
 {{ blog.attributes.Content }}
 
-<!-- ## Categories
-
-{% for category in blog.attributes.categories.data %}
-
-  <li><a href="/categories/{{ category.id }}/">{{ category.attributes.name }}</a></li>
-{% endfor %}
-  -->
